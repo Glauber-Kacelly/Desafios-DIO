@@ -1,0 +1,15 @@
+…ou crie um novo repositório na linha de comando
+
+echo "# Desafios-DIO" >> README.md 
+git init 
+git add README.md 
+git commit -m "first commit" 
+git branch -M main 
+git remote add origin https://github.com/Glauber-Kacelly/Desafios- DIO.git
+ git push -u origem principal
+
+…ou envie um repositório existente a partir da linha de comando
+
+git remoto adicionar origem https://github.com/Glauber-Kacelly/Desafios-DIO.git
+ git branch -M main 
+git push -u origin main
